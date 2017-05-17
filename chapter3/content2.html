@@ -1,0 +1,560 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>为什么不可变性很重要 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="content3.html" />
+    
+    
+    <link rel="prev" href="content1.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    写在我们开始之前
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../chapter1/content1.html">
+            
+                <a href="../chapter1/content1.html">
+            
+                    
+                    我们在创建什么
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../chapter1/content2.html">
+            
+                <a href="../chapter1/content2.html">
+            
+                    
+                    前提条件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../chapter1/content3.html">
+            
+                <a href="../chapter1/content3.html">
+            
+                    
+                    学习建议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../chapter1/content4.html">
+            
+                <a href="../chapter1/content4.html">
+            
+                    
+                    我卡住不会了！
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    概览
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../chapter2/content1.html">
+            
+                <a href="../chapter2/content1.html">
+            
+                    
+                    什么是React
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../chapter2/content2.html">
+            
+                <a href="../chapter2/content2.html">
+            
+                    
+                    开始编写
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../chapter2/content3.html">
+            
+                <a href="../chapter2/content3.html">
+            
+                    
+                    通过Props传数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../chapter2/content4.html">
+            
+                <a href="../chapter2/content4.html">
+            
+                    
+                    交互式组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../chapter2/content5.html">
+            
+                <a href="../chapter2/content5.html">
+            
+                    
+                    开发者工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="content1.html">
+            
+                <a href="content1.html">
+            
+                    
+                    状态提升
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.4.1" data-path="content2.html">
+            
+                <a href="content2.html">
+            
+                    
+                    为什么不可变性很重要
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="content3.html">
+            
+                <a href="content3.html">
+            
+                    
+                    函数式声明组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="content4.html">
+            
+                <a href="content4.html">
+            
+                    
+                    轮流下棋
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="content5.html">
+            
+                <a href="content5.html">
+            
+                    
+                    宣布获胜者
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../chapter4/content1.html">
+            
+                <a href="../chapter4/content1.html">
+            
+                    
+                    储存历史步骤
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../chapter4/content2.html">
+            
+                <a href="../chapter4/content2.html">
+            
+                    
+                    显示每一步棋
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../chapter4/content3.html">
+            
+                <a href="../chapter4/content3.html">
+            
+                    
+                    Key
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../chapter4/content4.html">
+            
+                <a href="../chapter4/content4.html">
+            
+                    
+                    实现穿越功能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../chapter4/content5.html">
+            
+                <a href="../chapter4/content5.html">
+            
+                    
+                    圆满完成
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >为什么不可变性很重要</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x4E3A;&#x4EC0;&#x4E48;&#x4E0D;&#x53EF;&#x53D8;&#x6027;&#x5F88;&#x91CD;&#x8981;">&#x4E3A;&#x4EC0;&#x4E48;&#x4E0D;&#x53EF;&#x53D8;&#x6027;&#x5F88;&#x91CD;&#x8981;</h1>
+<p>&#x5728;&#x4E4B;&#x524D;&#x7684;&#x793A;&#x4F8B;&#x4EE3;&#x7801;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x5EFA;&#x8BAE;&#x4F7F;&#x7528;<code>.slice()</code>&#x8FD0;&#x7B97;&#x7B26;&#x6765;&#x590D;&#x5236;&#x4E00;&#x4EFD;<code>squares</code>&#x6570;&#x7EC4;&#xFF0C;&#x518D;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x6539;&#x52A8;&#xFF0C;&#x4EE5;&#x9632;&#x5C06;&#x539F;&#x6709;&#x7684;&#x6570;&#x7EC4;&#x4FEE;&#x6539;&#x3002;&#x73B0;&#x5728;&#xFF0C;&#x6211;&#x4EEC;&#x6765;&#x8C08;&#x8C08;&#xFF0C;&#x8FD9;&#x5177;&#x4F53;&#x662F;&#x4EC0;&#x4E48;&#x610F;&#x601D;&#xFF0C;&#x4EE5;&#x53CA;&#x4E3A;&#x4EC0;&#x4E48;&#x91CD;&#x8981;&#x3002;</p>
+<p>&#x901A;&#x5E38;&#x6765;&#x8BF4;&#xFF0C;&#x6709;&#x4E24;&#x79CD;&#x65B9;&#x6CD5;&#x6765;&#x4FEE;&#x6539;&#x6570;&#x636E;&#x3002;&#x7B2C;&#x4E00;&#x79CD;&#x65B9;&#x6CD5;&#x662F;&#x901A;&#x8FC7;&#x76F4;&#x63A5;&#x6539;&#x52A8;&#x53D8;&#x91CF;&#x7684;&#x503C;&#x6765;&#x4FEE;&#x6539;&#xFF08;mutate&#xFF09;&#x6570;&#x636E;&#xFF0C;&#x7B2C;&#x4E8C;&#x79CD;&#x662F;&#x4F7F;&#x7528;&#x4E00;&#x4EFD;&#x6539;&#x52A8;&#x7684;&#x62F7;&#x8D1D;&#x540E;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x4EE5;&#x6B64;&#x66FF;&#x6362;&#xFF08;replace&#xFF09;&#x539F;&#x6709;&#x6570;&#x636E;&#x3002;</p>
+<h5 id="&#x6539;&#x52A8;&#x539F;&#x6570;&#x636E;">&#x6539;&#x52A8;&#x539F;&#x6570;&#x636E;</h5>
+<blockquote>
+<p>code</p>
+<pre><code>var player = {score: 1, name: &apos;Jeff&apos;};
+player.score = 2;
+// &#x73B0;&#x5728; player &#x662F; {score: 2, name: &apos;Jeff&apos;}
+</code></pre></blockquote>
+<h5 id="&#x4E0D;&#x6539;&#x52A8;&#x539F;&#x6570;&#x636E;">&#x4E0D;&#x6539;&#x52A8;&#x539F;&#x6570;&#x636E;</h5>
+<blockquote>
+<p>code</p>
+</blockquote>
+<pre><code>var player = {score: 1, name: &apos;Jeff&apos;};
+
+var newPlayer = Object.assign({}, player, {score: 2});
+// &#x73B0;&#x5728; player &#x6CA1;&#x6709;&#x6539;&#x53D8;, &#x800C; newPlayer &#x662F; {score: 2, name: &apos;Jeff&apos;}
+
+// &#x6216;&#x8005;&#x4F7F;&#x7528;&#x5BF9;&#x8C61;&#x5C55;&#x5F00;&#x7B26;&#xFF1A;
+// var newPlayer = {...player, score: 2};
+</code></pre><p>&#x6700;&#x7EC8;&#x7684;&#x7ED3;&#x679C;&#x662F;&#x4E00;&#x6837;&#x7684;&#xFF0C;&#x4F46;&#x662F;&#x4E0D;&#x76F4;&#x63A5;&#x6539;&#x52A8;&#x57FA;&#x7840;&#x6570;&#x636E;&#x7684;&#x65B9;&#x6CD5;&#x5374;&#x80FD;&#x5E26;&#x6765;&#x4E00;&#x4E9B;&#x989D;&#x5916;&#x7684;&#x597D;&#x5904;&#xFF1A;&#x5B83;&#x6709;&#x52A9;&#x4E8E;&#x63D0;&#x5347;&#x7EC4;&#x4EF6;&#x6216;&#x8005;&#x6574;&#x4E2A;&#x5E94;&#x7528;&#x7684;&#x6027;&#x80FD;&#x3002;</p>
+<h4 id="&#x66F4;&#x7B80;&#x5355;&#x7684;-&#x64A4;&#x9500;&#x91CD;&#x505A;-&#x548C;-&#x7A7F;&#x8D8A;&#x529F;&#x80FD;">&#x66F4;&#x7B80;&#x5355;&#x7684; &#x64A4;&#x9500;/&#x91CD;&#x505A; &#x548C; &#x7A7F;&#x8D8A;&#x529F;&#x80FD;</h4>
+<p>&#x4E0D;&#x53EF;&#x6539;&#x53D8;&#x6027;&#x4E5F;&#x8BA9;&#x4E00;&#x4E9B;&#x590D;&#x6742;&#x7684;&#x7279;&#x6027;&#x5B9E;&#x73B0;&#x8D77;&#x6765;&#x66F4;&#x5BB9;&#x6613;&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x5728;&#x672C;&#x6559;&#x7A0B;&#x540E;&#x671F;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x8981;&#x5B9E;&#x73B0;&#x5728;&#x68CB;&#x5C40;&#x7684;&#x4E0D;&#x540C;&#x9636;&#x6BB5;&#x95F4;&#x7A7F;&#x8D8A;&#x7684;&#x529F;&#x80FD;&#x3002;&#x907F;&#x514D;&#x6570;&#x636E;&#x7684;&#x53D8;&#x52A8;&#xFF0C;&#x80FD;&#x8BA9;&#x6211;&#x4EEC;&#x4FDD;&#x5B58;&#x5BF9;&#x65E7;&#x7248;&#x672C;&#x6570;&#x636E;&#x7684;&#x5F15;&#x7528;&#xFF0C;&#x5F53;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x8FD8;&#x80FD;&#x5728;&#x5B83;&#x4EEC;&#x4E4B;&#x95F4;&#x5207;&#x6362;&#x3002;</p>
+<h4 id="&#x8FFD;&#x8E2A;&#x53D8;&#x52A8;">&#x8FFD;&#x8E2A;&#x53D8;&#x52A8;</h4>
+<p>&#x5BF9;&#x4E8E;&#x88AB;&#x76F4;&#x63A5;&#x6539;&#x52A8;&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x5224;&#x65AD;&#x5B83;&#x4EEC;&#x662F;&#x5426;&#x88AB;&#x4FEE;&#x6539;&#x662F;&#x56F0;&#x96BE;&#x7684;&#x3002;&#x56E0;&#x4E3A;&#x6240;&#x4EE5;&#x6539;&#x52A8;&#x90FD;&#x76F4;&#x63A5;&#x5728;&#x5BF9;&#x8C61;&#x4E0A;&#x8FDB;&#x884C;&#x3002;&#x8FD9;&#x8981;&#x6C42;&#x5BF9;&#x5F53;&#x524D;&#x5BF9;&#x8C61;&#x548C;&#x4E4B;&#x524D;&#x7684;&#x62F7;&#x8D1D;&#x8FDB;&#x884C;&#x6BD4;&#x8F83;&#xFF0C;&#x8FFD;&#x8E2A;&#x904D;&#x5386;&#x6574;&#x4E2A;&#x5BF9;&#x8C61;&#x6570;&#xFF0C;&#x6BD4;&#x8F83;&#x6BCF;&#x4E2A;&#x53D8;&#x91CF;&#x548C;&#x503C;&#x3002;&#x8FD9;&#x4E2A;&#x8FC7;&#x7A0B;&#x53EF;&#x80FD;&#x4F1A;&#x975E;&#x5E38;&#x590D;&#x6742;&#x3002;</p>
+<p>&#x800C;&#x5224;&#x65AD;&#x4E0D;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#x662F;&#x5426;&#x6539;&#x53D8;&#x662F;&#x975E;&#x5E38;&#x5BB9;&#x6613;&#x7684;&#x3002; &#x5982;&#x679C;&#x88AB;&#x5F15;&#x7528;&#x7684;&#x5BF9;&#x8C61;&#x4E0E;&#x4EE5;&#x524D;&#x4E0D;&#x540C;&#xFF0C;&#x5219;&#x5BF9;&#x8C61;&#x5DF2;&#x66F4;&#x6539;&#x3002;&#x5C31;&#x8FD9;&#x4E48;&#x7B80;&#x5355;&#x3002;</p>
+<h4 id="react&#x4E2D;&#x786E;&#x5B9A;&#x5408;&#x9002;&#x91CD;&#x65B0;&#x6E32;&#x67D3;">React&#x4E2D;&#x786E;&#x5B9A;&#x5408;&#x9002;&#x91CD;&#x65B0;&#x6E32;&#x67D3;</h4>
+<p>&#x5EFA;&#x7ACB;&#x7EAF;&#x7EC4;&#x4EF6;&#x7684;&#x65F6;&#x5019;&#xFF0C;React&#x7684;&#x4E0D;&#x53EF;&#x6539;&#x53D8;&#x6027;&#x5E26;&#x6765;&#x7684;&#x597D;&#x5904;&#x6700;&#x660E;&#x663E;&#x3002;&#x4E0D;&#x53EF;&#x6539;&#x53D8;&#x7684;&#x6570;&#x636E;&#x80FD;&#x8BA9;&#x6211;&#x4EEC;&#x5F88;&#x5BB9;&#x6613;&#x5730;&#x786E;&#x5B9A;&#x6539;&#x52A8;&#x662F;&#x5426;&#x53D1;&#x751F;&#xFF0C;&#x501F;&#x6B64;&#xFF0C;&#x53EF;&#x4EE5;&#x786E;&#x5B9A;&#x7EC4;&#x4EF6;&#x4F55;&#x65F6;&#x8981;&#x6C42;&#x88AB;&#x91CD;&#x65B0;&#x6E32;&#x67D3;&#x3002;</p>
+<p>&#x60F3;&#x8981;&#x4E86;&#x89E3;<code>shouldComponentUpdate()</code>&#x4EE5;&#x53CA;&#x5982;&#x4F55;&#x6784;&#x5EFA;<em>&#x7EAF;&#x7EC4;&#x4EF6;</em>&#xFF0C;&#x8BF7;&#x67E5;&#x770B;<a href="https://facebook.github.io/react/docs/optimizing-performance.html#examples" target="_blank">&#x4F18;&#x5316;&#x6027;&#x80FD;</a>&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="content1.html" class="navigation navigation-prev " aria-label="Previous page: 状态提升">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="content3.html" class="navigation navigation-next " aria-label="Next page: 函数式声明组件">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"为什么不可变性很重要","level":"1.4.1","depth":2,"next":{"title":"函数式声明组件","level":"1.4.2","depth":2,"path":"chapter3/content3.md","ref":"chapter3/content3.md","articles":[]},"previous":{"title":"状态提升","level":"1.4","depth":1,"path":"chapter3/content1.md","ref":"chapter3/content1.md","articles":[{"title":"为什么不可变性很重要","level":"1.4.1","depth":2,"path":"chapter3/content2.md","ref":"chapter3/content2.md","articles":[]},{"title":"函数式声明组件","level":"1.4.2","depth":2,"path":"chapter3/content3.md","ref":"chapter3/content3.md","articles":[]},{"title":"轮流下棋","level":"1.4.3","depth":2,"path":"chapter3/content4.md","ref":"chapter3/content4.md","articles":[]},{"title":"宣布获胜者","level":"1.4.4","depth":2,"path":"chapter3/content5.md","ref":"chapter3/content5.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter3/content2.md","mtime":"2017-05-14T12:25:06.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-05-16T08:32:46.346Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

@@ -445,8 +445,8 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="&#x8F6E;&#x6D41;&#x4E0B;&#x68CB;">&#x8F6E;&#x6D41;&#x4E0B;&#x68CB;</h1>
-<p>&#x76EE;&#x524D;&#xFF0C;&#x6E38;&#x620F;&#x4E2D;&#x4E00;&#x4E2A;&#x660E;&#x663E;&#x7684;&#x95EE;&#x9898;&#x662F;&#xFF0C;&#x53EA;&#x6709;&#x201C;X&#x201D;&#x4E00;&#x4E2A;&#x4EBA;&#x80FD;&#x73A9;&#x3002;&#x73B0;&#x5728;&#x89E3;&#x51B3;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x3002;</p>
-<p>&#x6211;&#x4EEC;&#x9ED8;&#x8BA4;&#xFF0C;&#x201C;X&#x201D;&#x6267;&#x5148;&#x624B;&#x3002;&#x5728;Board&#x7EC4;&#x4EF6;&#x7684;&#x6784;&#x9020;&#x51FD;&#x6570;&#x4E2D;&#x4FEE;&#x6539;&#x6211;&#x4EEC;&#x7684;&#x521D;&#x59CB;&#x72B6;&#x6001;&#x3002;</p>
+<p>&#x76EE;&#x524D;&#xFF0C;&#x6E38;&#x620F;&#x4E2D;&#x4E00;&#x4E2A;&#x660E;&#x663E;&#x7684;&#x95EE;&#x9898;&#x662F;&#xFF0C;&#x53EA;&#x6709;&#x201C;X&#x201D;&#x4E00;&#x4E2A;&#x4EBA;&#x80FD;&#x73A9;&#x3002;&#x73B0;&#x5728;&#x5C31;&#x89E3;&#x51B3;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x3002;</p>
+<p>&#x6211;&#x4EEC;&#x9ED8;&#x8BA4;&#xFF0C;&#x201C;X&#x201D;&#x6267;&#x5148;&#x624B;&#x3002;&#x5728;Board&#x7EC4;&#x4EF6;&#x7684;&#x6784;&#x9020;&#x51FD;&#x6570;&#x4E2D;&#xFF0C;&#x4FEE;&#x6539;&#x521D;&#x59CB;&#x72B6;&#x6001;&#xFF1A;</p>
 <blockquote>
 <p>code</p>
 <pre><code>class Board extends React.Component {
@@ -458,7 +458,7 @@
     };
   }
 </code></pre></blockquote>
-<p>&#x6BCF;&#x8D70;&#x4E00;&#x6B65;&#x68CB;&#xFF0C;&#x6211;&#x4EEC;&#x90FD;&#x8981;&#x4FEE;&#x6539;<code>xIsNext</code>&#x7684;&#x5E03;&#x5C14;&#x503C;&#xFF0C;&#x5E76;&#x628A;&#x5B83;&#x4FDD;&#x5B58;&#x5230;&#x72B6;&#x6001;&#x4E2D;&#x3002;&#x73B0;&#x5728;&#xFF0C;&#x6211;&#x4EEC;&#x66F4;&#x65B0;Board&#x7EC4;&#x4EF6;&#x7684;<code>handleClick</code>&#x51FD;&#x6570;&#xFF0C;&#x6765;&#x5207;&#x6362;<code>xIsNext</code>&#x7684;&#x503C;&#x3002;</p>
+<p>&#x6BCF;&#x8D70;&#x4E00;&#x6B65;&#x68CB;&#xFF0C;&#x6211;&#x4EEC;&#x90FD;&#x8981;&#x5207;&#x6362;<code>xIsNext</code>&#x7684;&#x5E03;&#x5C14;&#x503C;&#xFF0C;&#x5E76;&#x628A;&#x5B83;&#x4FDD;&#x5B58;&#x5230;&#x72B6;&#x6001;&#x4E2D;&#x3002;&#x73B0;&#x5728;&#xFF0C;&#x6211;&#x4EEC;&#x66F4;&#x65B0;Board&#x7EC4;&#x4EF6;&#x7684;<code>handleClick</code>&#x51FD;&#x6570;&#xFF0C;&#x4EE5;&#x5B9E;&#x73B0;&#x5207;&#x6362;<code>xIsNext</code>&#x7684;&#x503C;&#x3002;</p>
 <blockquote>
 <p>code</p>
 <pre><code> handleClick(i) {
@@ -470,67 +470,72 @@
     });
   }
 </code></pre></blockquote>
-<p>&#x73B0;&#x5728;&#xFF0C;&quot;X&quot;&#x548C;&quot;O&quot;&#x5C31;&#x53EF;&#x4EE5;&#x8F6E;&#x6D41;&#x4E0B;&#x68CB;&#x4E86;&#x3002;&#x4E0B;&#x4E00;&#x6B65;&#xFF0C;&#x4FEE;&#x6539;Board&#x7EC4;&#x4EF6;<code>render</code>&#x65B9;&#x6CD5;&#x4E2D;&#x7684;&quot;status&quot;&#xFF0C;&#x4EE5;&#x663E;&#x793A;&#x4E0B;&#x4E00;&#x6B65;&#x8BE5;&#x8C01;&#x4E0B;&#x3002;</p>
+<p>&#x73B0;&#x5728;&#xFF0C;&quot;X&quot;&#x548C;&quot;O&quot;&#x5C31;&#x53EF;&#x4EE5;&#x8F6E;&#x6D41;&#x4E0B;&#x68CB;&#x4E86;&#x3002;&#x4E0B;&#x4E00;&#x6B65;&#xFF0C;&#x4FEE;&#x6539;Board&#x7EC4;&#x4EF6;<code>render</code>&#x65B9;&#x6CD5;&#x4E2D;&#x7684;&quot;status&quot;&#xFF0C;&#x7528;&#x6765;&#x663E;&#x793A;&#x4E0B;&#x4E00;&#x6B65;&#x68CB;&#x8BE5;&#x8C01;&#x4E0B;&#x3002;</p>
 <blockquote>
-<p>code
-```
- render() {
-    const status = &apos;Next player: &apos; + (this.state.xIsNext ? &apos;X&apos; : &apos;O&apos;);</p>
+<p>code</p>
 </blockquote>
-<pre><code>return (
-  // &#x5176;&#x4ED6;&#x7684;&#x4E0D;&#x52A8;
-</code></pre><pre><code>
-&#x7ECF;&#x8FC7;&#x4E86;&#x8FD9;&#x4E9B;&#x6539;&#x52A8;&#xFF0C;&#x4F60;&#x7684;Board&#x7EC4;&#x4EF6;&#x770B;&#x8D77;&#x6765;&#x6210;&#x4E86;&#x8FD9;&#x6837;&#x5B50;&#xFF1A;
+<pre><code> render() {
+    const status = &apos;Next player: &apos; + (this.state.xIsNext ? &apos;X&apos; : &apos;O&apos;);
 
-&gt;code
-</code></pre><p>class Board extends React.Component {
+    return (
+      // &#x5176;&#x4ED6;&#x7684;&#x4E0D;&#x52A8;
+</code></pre><p>&#x7ECF;&#x8FC7;&#x4E86;&#x8FD9;&#x4E9B;&#x6539;&#x52A8;&#xFF0C;&#x4F60;&#x7684;Board&#x7EC4;&#x4EF6;&#x770B;&#x8D77;&#x6765;&#x6210;&#x4E86;&#x8FD9;&#x6837;&#x5B50;&#xFF1A;</p>
+<blockquote>
+<p>code</p>
+</blockquote>
+<pre><code>class Board extends React.Component {
   constructor() {
     super();
     this.state = {
       squares: Array(9).fill(null),
       xIsNext: true,
     };
-  }</p>
-<p>  handleClick(i) {
+  }
+
+  handleClick(i) {
     const squares = this.state.squares.slice();
     squares[i] = this.state.xIsNext ? &apos;X&apos; : &apos;O&apos;;
     this.setState({
       squares: squares,
       xIsNext: !this.state.xIsNext,
     });
-  }</p>
-<p>  renderSquare(i) {
+  }
+
+  renderSquare(i) {
     return (
-      <square value="{this.state.squares[i]}" onclick="{()" ==""> this.handleClick(i)}
+      &lt;Square
+        value={this.state.squares[i]}
+        onClick={() =&gt; this.handleClick(i)}
       /&gt;
     );
-  }</square></p>
-<p>  render() {
-    const status = &apos;Next player: &apos; + (this.state.xIsNext ? &apos;X&apos; : &apos;O&apos;);</p>
-<pre><code>return (
-  &lt;div&gt;
-    &lt;div className=&quot;status&quot;&gt;{status}&lt;/div&gt;
-    &lt;div className=&quot;board-row&quot;&gt;
-      {this.renderSquare(0)}
-      {this.renderSquare(1)}
-      {this.renderSquare(2)}
-    &lt;/div&gt;
-    &lt;div className=&quot;board-row&quot;&gt;
-      {this.renderSquare(3)}
-      {this.renderSquare(4)}
-      {this.renderSquare(5)}
-    &lt;/div&gt;
-    &lt;div className=&quot;board-row&quot;&gt;
-      {this.renderSquare(6)}
-      {this.renderSquare(7)}
-      {this.renderSquare(8)}
-    &lt;/div&gt;
-  &lt;/div&gt;
-);
-</code></pre><p>  }
+  }
+
+  render() {
+    const status = &apos;Next player: &apos; + (this.state.xIsNext ? &apos;X&apos; : &apos;O&apos;);
+
+    return (
+      &lt;div&gt;
+        &lt;div className=&quot;status&quot;&gt;{status}&lt;/div&gt;
+        &lt;div className=&quot;board-row&quot;&gt;
+          {this.renderSquare(0)}
+          {this.renderSquare(1)}
+          {this.renderSquare(2)}
+        &lt;/div&gt;
+        &lt;div className=&quot;board-row&quot;&gt;
+          {this.renderSquare(3)}
+          {this.renderSquare(4)}
+          {this.renderSquare(5)}
+        &lt;/div&gt;
+        &lt;div className=&quot;board-row&quot;&gt;
+          {this.renderSquare(6)}
+          {this.renderSquare(7)}
+          {this.renderSquare(8)}
+        &lt;/div&gt;
+      &lt;/div&gt;
+    );
+  }
 }
-```</p>
-<p><a href="https://codepen.io/gaearon/pen/KmmrBy?editors=0010" target="_blank">&#x67E5;&#x770B;&#x6700;&#x65B0;&#x7684;&#x4EE3;&#x7801;</a></p>
+</code></pre><p><a href="https://codepen.io/gaearon/pen/KmmrBy?editors=0010" target="_blank">&#x67E5;&#x770B;&#x6700;&#x65B0;&#x7684;&#x4EE3;&#x7801;</a></p>
 
                                 
                                 </section>
@@ -574,7 +579,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"轮流下棋","level":"1.4.3","depth":2,"next":{"title":"宣布获胜者","level":"1.4.4","depth":2,"path":"chapter3/content5.md","ref":"chapter3/content5.md","articles":[]},"previous":{"title":"函数式声明组件","level":"1.4.2","depth":2,"path":"chapter3/content3.md","ref":"chapter3/content3.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter3/content4.md","mtime":"2017-05-15T02:19:53.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-05-16T08:32:46.346Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"轮流下棋","level":"1.4.3","depth":2,"next":{"title":"宣布获胜者","level":"1.4.4","depth":2,"path":"chapter3/content5.md","ref":"chapter3/content5.md","articles":[]},"previous":{"title":"函数式声明组件","level":"1.4.2","depth":2,"path":"chapter3/content3.md","ref":"chapter3/content3.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter3/content4.md","mtime":"2017-05-19T03:52:36.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-05-19T03:21:38.993Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

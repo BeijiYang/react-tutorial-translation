@@ -445,7 +445,7 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="&#x5BA3;&#x5E03;&#x83B7;&#x80DC;&#x8005;">&#x5BA3;&#x5E03;&#x83B7;&#x80DC;&#x8005;</h1>
-<p>&#x73B0;&#x5728;&#xFF0C;&#x5728;&#x73A9;&#x5BB6;&#x83B7;&#x80DC;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6211;&#x4EEC;&#x628A;&#x5B83;&#x663E;&#x793A;&#x51FA;&#x6765;&#x3002;&#x628A;&#x8FD9;&#x4E2A;&#x8F85;&#x52A9;&#x51FD;&#x6570;&#x6DFB;&#x52A0;&#x5230;&#x6587;&#x4EF6;&#x7684;&#x672B;&#x5C3E;&#xFF1A;</p>
+<p>&#x73B0;&#x5728;&#xFF0C;&#x5F53;&#x6709;&#x73A9;&#x5BB6;&#x80DC;&#x51FA;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6211;&#x4EEC;&#x628A;&#x8FD9;&#x4E2A;&#x7ED3;&#x679C;&#x663E;&#x793A;&#x51FA;&#x6765;&#x3002;&#x628A;&#x8FD9;&#x4E2A;&#x8F85;&#x52A9;&#x51FD;&#x6570;&#x6DFB;&#x52A0;&#x5230;&#x6587;&#x4EF6;&#x7684;&#x672B;&#x5C3E;&#xFF1A;</p>
 <blockquote>
 <p>code</p>
 <pre><code>function calculateWinner(squares) {
@@ -468,8 +468,8 @@
   return null;
 }
 </code></pre></blockquote>
-<p>&#x8C03;&#x7528;Board&#x7EC4;&#x4EF6;&#x7684;<code>render</code>&#x51FD;&#x6570;&#xFF0C;&#x68C0;&#x67E5;&#x662F;&#x5426;&#x6709;&#x4EBA;&#x83B7;&#x80DC;&#xFF0C;&#x5E76;&#x5728;&#x6709;&#x4EBA;&#x80DC;&#x51FA;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x7528;status&#x663E;&#x793A;&#x201C;Winner: [X/O]&#x201D;&#x3002;</p>
-<p>&#x7528;&#x4EE5;&#x4E0B;&#x4EE3;&#x7801;&#x66FF;&#x6362;Board&#x7EC4;&#x4EF6;<code>render</code>&#x51FD;&#x6570;&#x4E2D;&#x7684;<code>status</code>&#x58F0;&#x660E;:</p>
+<p>&#x8C03;&#x7528;Board&#x7EC4;&#x4EF6;&#x7684;<code>render</code>&#x51FD;&#x6570;&#xFF0C;&#x7528;&#x6765;&#x68C0;&#x67E5;&#x662F;&#x5426;&#x6709;&#x4EBA;&#x83B7;&#x80DC;&#xFF0C;&#x4EE5;&#x53CA;&#x5728;&#x6709;&#x4EBA;&#x80DC;&#x51FA;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x8BA9;&#x72B6;&#x6001;&#x6587;&#x672C;&#x663E;&#x793A;&#x201C;Winner: [X/O]&#x201D;&#x3002;</p>
+<p>&#x7528;&#x4E0B;&#x9762;&#x8FD9;&#x6BB5;&#x4EE3;&#x7801;&#x66FF;&#x6362;&#x6389;Board&#x7EC4;&#x4EF6;<code>render</code>&#x51FD;&#x6570;&#x4E2D;&#x7684;<code>status</code>&#x58F0;&#x660E;:</p>
 <blockquote>
 <p>code</p>
 </blockquote>
@@ -484,7 +484,7 @@
 
     return (
       // &#x5176;&#x4F59;&#x4EE3;&#x7801;&#x4E0D;&#x52A8;
-</code></pre><p>&#x73B0;&#x5728;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x6539;&#x53D8;Board&#x7EC4;&#x4EF6;&#x4E2D;&#x7684;<code>handleClick</code>&#xFF0C;&#x6765;&#x63D0;&#x524D;return&#xFF0C;&#x4EE5;&#x5FFD;&#x7565;&#x5DF2;&#x7ECF;&#x6709;&#x4EBA;&#x83B7;&#x80DC;&#x540E;&#x7684;&#x70B9;&#x51FB;&#xFF0C;&#x548C;&#x5BF9;&#x5DF2;&#x7ECF;&#x8D70;&#x8FC7;&#x7684;&#x4F4D;&#x7F6E;&#x7684;&#x91CD;&#x590D;&#x70B9;&#x51FB;&#x3002;</p>
+</code></pre><p>&#x73B0;&#x5728;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x6539;&#x5199;Board&#x7EC4;&#x4EF6;&#x4E2D;&#x7684;<code>handleClick</code>&#xFF0C;&#x6765;&#x8FD9;&#x6837;&#x7684;&#x529F;&#x80FD;&#xFF1A;&#x5F53;&#x5DF2;&#x7ECF;&#x6709;&#x4EBA;&#x83B7;&#x80DC;&#xFF0C;&#x6216;&#x8005;&#x5C0F;&#x65B9;&#x683C;&#x5DF2;&#x7ECF;&#x88AB;&#x70B9;&#x51FB;&#x8FC7;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x63D0;&#x524D;return&#xFF0C;&#x5FFD;&#x7565;&#x91CD;&#x590D;&#x70B9;&#x51FB;&#x3002;</p>
 <blockquote>
 <p>code</p>
 <pre><code> handleClick(i) {
@@ -499,7 +499,7 @@
     });
   }
 </code></pre></blockquote>
-<p>&#x606D;&#x559C;&#xFF01;&#x73B0;&#x5728;&#x4F60;&#x5DF2;&#x7ECF;&#x6709;&#x4E86;&#x4E00;&#x4E2A;&#x80FD;&#x7528;&#x7684;&#x4E95;&#x5B57;&#x68CB;&#x6E38;&#x620F;&#x4E86;&#x3002;&#x5E76;&#x4E14;&#xFF0C;&#x4F60;&#x5DF2;&#x7ECF;&#x5BF9;React&#x7684;&#x57FA;&#x672C;&#x77E5;&#x8BC6;&#x6709;&#x6240;&#x4E86;&#x89E3;&#x3002;&#x6240;&#x4EE5;&#xFF0C;&#x6216;&#x8BB8;<em>&#x4F60;</em>&#x624D;&#x662F;&#x771F;&#x7684;&#x8D62;&#x5BB6;&#x3002;</p>
+<p>&#x606D;&#x559C;&#xFF01;&#x73B0;&#x5728;&#x4F60;&#x5DF2;&#x7ECF;&#x6709;&#x4E86;&#x4E00;&#x4E2A;&#x80FD;&#x73A9;&#x7684;&#x4E95;&#x5B57;&#x68CB;&#x6E38;&#x620F;&#x4E86;&#x3002;&#x5BF9;React&#x7684;&#x57FA;&#x672C;&#x77E5;&#x8BC6;&#xFF0C;&#x4F60;&#x4E5F;&#x5DF2;&#x7ECF;&#x6709;&#x6240;&#x4E86;&#x89E3;&#x3002;&#x6216;&#x8BB8;<em>&#x4F60;</em>&#x624D;&#x662F;&#x771F;&#x7684;&#x8D62;&#x5BB6;&#x3002;</p>
 <p><a href="https://codepen.io/gaearon/pen/LyyXgK?editors=0010" target="_blank">&#x67E5;&#x770B;&#x6700;&#x65B0;&#x7684;&#x4EE3;&#x7801;</a></p>
 
                                 
@@ -544,7 +544,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"宣布获胜者","level":"1.4.4","depth":2,"next":{"title":"储存历史步骤","level":"1.5","depth":1,"path":"chapter4/content1.md","ref":"chapter4/content1.md","articles":[{"title":"显示每一步棋","level":"1.5.1","depth":2,"path":"chapter4/content2.md","ref":"chapter4/content2.md","articles":[]},{"title":"Key","level":"1.5.2","depth":2,"path":"chapter4/content3.md","ref":"chapter4/content3.md","articles":[]},{"title":"实现穿越功能","level":"1.5.3","depth":2,"path":"chapter4/content4.md","ref":"chapter4/content4.md","articles":[]},{"title":"圆满完成","level":"1.5.4","depth":2,"path":"chapter4/content5.md","ref":"chapter4/content5.md","articles":[]}]},"previous":{"title":"轮流下棋","level":"1.4.3","depth":2,"path":"chapter3/content4.md","ref":"chapter3/content4.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter3/content5.md","mtime":"2017-05-15T05:55:43.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-05-16T08:32:46.346Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"宣布获胜者","level":"1.4.4","depth":2,"next":{"title":"储存历史步骤","level":"1.5","depth":1,"path":"chapter4/content1.md","ref":"chapter4/content1.md","articles":[{"title":"显示每一步棋","level":"1.5.1","depth":2,"path":"chapter4/content2.md","ref":"chapter4/content2.md","articles":[]},{"title":"Key","level":"1.5.2","depth":2,"path":"chapter4/content3.md","ref":"chapter4/content3.md","articles":[]},{"title":"实现穿越功能","level":"1.5.3","depth":2,"path":"chapter4/content4.md","ref":"chapter4/content4.md","articles":[]},{"title":"圆满完成","level":"1.5.4","depth":2,"path":"chapter4/content5.md","ref":"chapter4/content5.md","articles":[]}]},"previous":{"title":"轮流下棋","level":"1.4.3","depth":2,"path":"chapter3/content4.md","ref":"chapter3/content4.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter3/content5.md","mtime":"2017-05-19T04:20:30.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-05-19T03:21:38.993Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

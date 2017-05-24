@@ -4,4 +4,4 @@
 
 个人翻译,以gitbook的形式发布。欢迎指正讨论。
 
-[这个仓库](https://github.com/BeijiYang/tic-tac-toe)是我实现的tic-tac-toe
+**[这个仓库](https://github.com/BeijiYang/tic-tac-toe)**是我实现的tic-tac-toe

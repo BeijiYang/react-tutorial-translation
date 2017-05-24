@@ -1,4 +1,5 @@
 ### react官方指南 [Tutorial: Intro To React](https://facebook.github.io/react/tutorial/tutorial.html)译文
+#### [在线阅读](https://beijiyang.github.io/react-tutorial-translation/)
 用React来编写tic-tac-toe（井字棋）小游戏
 
 个人翻译。欢迎指正讨论。
